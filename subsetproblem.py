@@ -2,7 +2,7 @@ import random
 Set         = set([-12,-3,-6,7,2,-2,6,3,9,-7,-5,-8,1,11,-9,-4])
 SetSize     = 5
 ResultList  = set()    # Store Result List i.e. list of sets whose sum is zero
-Iterations  = 5000   # Number of Inerations
+Iterations  = 5000   # Number of Iterations
 
 
 for i in range(Iterations):
