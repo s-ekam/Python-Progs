@@ -19,3 +19,7 @@ def Init():
 def FitnessFunction(x):
     s = (x[4]-x[3]**2)**2+(x[3]-x[2]**2)**2+(x[3]-x[2]**2)**2+(x[2]-x[1]**2)**2+(x[1]-x[0]**2)**2
     return round(s,2)
+init()
+for p in pop:
+    print "Chromosome ",p.Chromosome ,"\t Fitness :",p.Fitness
+    print "\n"
