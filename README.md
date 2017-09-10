@@ -1,1 +1,1 @@
-Labworks of Basic python programming
+Labworks of Basic python programming in Machine Learning
