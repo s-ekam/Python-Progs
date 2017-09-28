@@ -10,7 +10,7 @@ import random
 D=50
 def FitnessFunction(x):
     s=0
-    for i in range (0,D):
+    for i in range (0,D-1):
         a = (- x[i+1]+47)*m.sin(m.sqrt(abs(x[i+1] + (x[i]*0.5) +47)))
         b = x[i]*m.sin(m.sqrt(abs(x[i] - x[i+1] -47)))
         s+= a-b
